@@ -1,0 +1,79 @@
+@import "./styles/global.scss";
+@import "./styles/variables.scss";
+
+.container {
+  margin: 0 auto;
+  width: 40rem;
+  border-radius: 20px;
+
+  border-top: 2px solid $color-dark;
+  border-bottom: 3px solid $color-accent;
+
+  display: grid;
+  grid-template-rows: 14rem 40rem 15rem;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+
+  background: linear-gradient(
+    335deg,
+    rgba(255, 247, 240, 0.702140231092437) 0%,
+    rgba(239, 245, 245, 0.6993391106442577) 40%,
+    rgba(255, 247, 240, 1) 80%
+  );
+
+  transition: all 1s ease-out;
+}
+
+.thunderstorm {
+  background-color: rgb(56, 56, 75);
+  transition: background-color 1s ease-out;
+}
+
+.drizzle {
+  background-color: rgba(164, 200, 200, 0.596);
+  transition: background-color 1s ease-out;
+}
+
+.rain {
+  background-color: rgba(41, 84, 84, 0.836);
+  transition: background-color 1s ease-out;
+}
+
+.snow {
+  background-color: rgb(113, 113, 113);
+  transition: background-color 1s ease-out;
+}
+
+.clear {
+  background-color: rgba(215, 145, 40, 0.472);
+  transition: background-color 1s ease-out;
+}
+
+.clouds {
+  background-color: rgba(94, 94, 94, 0.55);
+  transition: background-color 1s ease-out;
+}
+
+.fog {
+  background-color: rgba(65, 142, 173, 0.448);
+  transition: background-color 1s ease-out;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+
+  &__2 {
+    justify-content: flex-start;
+    text-align: center;
+    background: linear-gradient(
+      0deg,
+      rgba(239, 245, 245, 0) 8%,
+      rgba(255, 255, 255, 0.4) 35%,
+      rgba(239, 245, 245, 0) 84%
+    );
+  }
+
+  &__3 {
+    justify-content: center;
+  }
+}

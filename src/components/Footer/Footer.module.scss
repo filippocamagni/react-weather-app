@@ -1,0 +1,47 @@
+@import "../../styles/global.scss";
+@import "../../styles/variables.scss";
+
+.container {
+  display: grid;
+  grid-template-columns: 10rem 10rem 15rem;
+  grid-template-rows: 10rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  padding: 1rem;
+  height: 8.5rem;
+  text-align: center;
+  color: $color-primary;
+  background: linear-gradient(#497174db, #497174);
+  box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.1);
+
+  &__1 {
+    border-radius: 20px 0 0 20px;
+  }
+
+  &__2 {
+    border-left: 0.5px solid rgba(0, 0, 0, 0.2);
+    border-right: 0.5px solid rgba(0, 0, 0, 0.2);
+  }
+
+  &__3 {
+    border-radius: 0 20px 20px 0;
+  }
+}
+
+.title {
+  font-size: 1.3rem;
+}
+
+.data {
+  font-size: 3rem;
+  margin: 0.5rem;
+  font-weight: 500;
+  position: relative;
+
+  &__adds {
+    font-size: 1.5rem;
+  }
+}
