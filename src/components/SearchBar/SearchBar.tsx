@@ -16,7 +16,6 @@ const SearchBar: React.FC<SearchBarProps> = ({
       <form onSubmit={fetchWeatherData}>
         <input
           className={styles.input}
-          type="search"
           placeholder="Enter a city"
           onChange={handleInputChange}
         />
