@@ -3,8 +3,8 @@ A simple weather app I built with React.js, TypeScript and the [OpenWeather API]
 
 It features animated weather icons and a dynamic background.
 
-The customized SVG weather icons are downloaded from [amcharts.com](https://amcharts.com). All the other icons come from the [react-icons](https://react-icons.github.io/react-icons/) library (Font Awesome, Ant Design, Weather).
+The custom SVG weather icons were imported from [amcharts.com](https://amcharts.com). All the other icons come from the [react-icons](https://react-icons.github.io/react-icons/) library (Font Awesome, Ant Design, Weather).
 
-Here's the [demo](http://fc-react-weather-app.netlify.app).
+Here's a [demo](http://fc-react-weather-app.netlify.app).
 
 <img width="300" alt="screenshot" src="https://user-images.githubusercontent.com/114856465/209947226-6d5b10ec-7475-45ee-bdb2-0a34aae505d1.png">
