@@ -297,12 +297,6 @@
 }
 
 @media (max-width: 700px) {
-}
-
-@media (max-width: 425px) {
-}
-
-@media (max-width: 375px) {
   .stup {
     &_img {
       &_tech {
@@ -314,6 +308,18 @@
         -webkit-filter: none;
         filter: none;
       }
+    }
+
+    &_h1 {
+      font-size: 3.7rem;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .stup {
+    &_h1 {
+      font-size: 3.2rem;
     }
   }
 
@@ -342,9 +348,7 @@
 
   .tooltip {
     font-size: 1.3rem;
-    bottom: 9rem;
     left: -1rem;
     right: 3rem;
-    padding: 0.5rem 0.7rem;
   }
 }

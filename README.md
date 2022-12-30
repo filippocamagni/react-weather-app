@@ -1,5 +1,5 @@
 # react-weather-app
-A simple weather app I built with React.js, TypeScript and the [OpenWeather API](https://openweathermap.org/api). 
+A simple, responsive weather app I built with React.js, TypeScript, and the [OpenWeather API](https://openweathermap.org/api). 
 
 It features animated weather icons and a dynamic background.
 
