@@ -113,7 +113,7 @@
 
   &_img {
     &_tech {
-      width: 60px;
+      width: 6rem;
       padding: 1rem;
       margin: 0.5rem;
       -webkit-filter: grayscale(100%);
@@ -277,7 +277,7 @@
   transition: all 0.4s;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-  
+
   &:before {
     content: "";
     border-left: 5px solid transparent;
@@ -294,4 +294,19 @@
   bottom: 75px;
   visibility: visible;
   opacity: 1;
+}
+
+@media (max-width: 700px) {
+}
+
+@media (max-width: 425px) {
+}
+
+@media (max-width: 375px) {
+  .container_main {
+    margin-top: -4rem;
+  }
+}
+
+@media (max-width: 320px) {
 }

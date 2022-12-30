@@ -12,17 +12,15 @@ const SearchBar: React.FC<SearchBarProps> = ({
   handleInputChange,
 }) => {
   return (
-    <div className={styles.container}>
-      <div className={styles["lower-container"]}>
-        <form onSubmit={fetchWeatherData}>
-          <input
-            className={styles.input}
-            type="search"
-            placeholder="Enter a city"
-            onChange={handleInputChange}
-          />
-        </form>
-      </div>
+    <div className={styles.inner_container}>
+      <form onSubmit={fetchWeatherData}>
+        <input
+          className={styles.input}
+          type="search"
+          placeholder="Enter a city"
+          onChange={handleInputChange}
+        />
+      </form>
     </div>
   );
 };

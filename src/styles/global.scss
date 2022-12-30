@@ -1,5 +1,5 @@
 @import "./variables.scss";
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300&display=swap");
 
 *,
 *::after,
@@ -16,7 +16,7 @@ html {
 body {
   margin: 5rem;
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 1rem;
   color: $color-text;
@@ -25,4 +25,19 @@ body {
 h1,
 h2 {
   font-weight: 300;
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 55.5%;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    margin: 2rem;
+  }
+}
+
+@media (max-width: 375px) {
 }
